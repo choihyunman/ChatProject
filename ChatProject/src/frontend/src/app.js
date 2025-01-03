@@ -3,7 +3,7 @@ const messageForm = document.getElementById("message-form");
 const userInput = document.getElementById("user-input");
 // const apiSelector = document.getElementById("api-selector");
 
-const BASE_URL = "https://backend-small-field-9093.fly.dev/chat";
+const BASE_URL = "https://backend-small-field-9093.fly.dev";
 // Create a message bubble
 function createMessageBubble(content, sender = "user") {
   const wrapper = document.createElement("div");
